@@ -52,7 +52,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.shanInfotech.collectionExtendedApp.InterviewMain</mainClass>
+                            <mainClass>com.shanInfoTech.QueueInterviewEx.InterviewMain</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
