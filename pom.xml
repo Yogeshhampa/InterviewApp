@@ -3,11 +3,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.shanInfoTech.QueueInterviewEx</groupId>
-  <artifactId>QueueInterviewEx</artifactId>
+  <groupId>com.shanInfotech.collectionExtendedApp</groupId>
+  <artifactId>DoctorManagementApp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>QueueInterviewEx</name>
+  <name>DoctorManagementApp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -52,7 +52,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.shanInfoTech.QueueInterviewEx.InterviewMain</mainClass>
+                            <mainClass>com.shanInfotech.collectionExtendedApp.InterviewMain</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -69,7 +69,7 @@
                         <goals>
                             <goal>shade</goal>
                         </goals>
-                          <configuration>
+                        <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
